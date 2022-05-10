@@ -1,1 +1,131 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #2081c3;
+}
+
+/*Globales*/
+h1{
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    text-align: center;
+}
+
+.text-transform {
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 130rem;
+    margin: 0 auto;
+}
+
+/*Footer*/
+
+.content-footer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 7rem 16rem;
+    column-gap: 7rem;
+}
+
+.footer-text {
+    color: #f9be02;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+.footer-text:hover {
+    color: #f9be02;
+    text-decoration: underline;
+}
+
+.footer-title{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.footer-link{
+    font-size: 1.4rem;
+    color: #fff;
+    text-decoration: none;
+    padding: .5rem;
+}
+
+.footer-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.derechos {
+    max-width: 115rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 13rem 0 13rem;
+    border-top: 1px solid #fff;
+}
+
+.derechos-derecha p, .derechos-izquierda p{
+    display: inline-block;
+    font-size: 1.2rem;
+    color: #fff;
+    padding: .8rem;
+    font-weight: bold;
+}
+
+.character {
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+/*Formularios*/
+
+.form {
+    width: 35%;
+    margin: 0 auto;
+}
+
+.informacion {
+    background-color: #fff;
+    padding: 5rem;
+    margin-top: 5rem;
+}
+
+.informacion h2 {
+    text-align: left;
+    font-size: 1.6rem;
+}
+
+.informacion p {
+    color: gray;
+}
+
+.campos input{
+    display: block;
+    width: 100%;
+    padding: .7rem;
+    margin: 1rem 0;
+}
+
+.btn-4 {
+    padding: .8rem 2rem;
+    color: #fff;
+    background-color: #2081c3;
+    border: 1px solid #2081c3;
+    font-weight: bold;
+}

@@ -1,0 +1,178 @@
+.conteiner-main {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+.content-text {
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 8rem;
+}
+
+.main__text {
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.main__text--p {
+    font-size: 1.6rem;
+}
+
+.img-max {
+    width: 70rem;
+}
+
+.btn {
+    border-radius: 10rem;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 1.5rem 8rem 1.5rem 8rem;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.btn:hover {
+    color: #2081c3;
+    background-color: #fff;
+}
+
+.check-out {
+    background-color: #FFAD05;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 8.5rem;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+}
+
+.check-out__imagen {
+    text-align: right;
+}
+
+.check-out__contenido {
+    text-align: left;
+}
+
+.check-out__contenido h2 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.btn-2 {
+    border-radius: 10rem;
+    background-color: #2081c3;
+    color: #fff;
+    padding: .7rem 5rem .7rem 5rem;
+    font-size: 1.2rem;
+    border: 1px solid #2081c3;
+}
+
+.btn-2:hover {
+    background-color: rgba(32, 129, 195, .8);
+}
+
+.what-makes {
+    background-color: #f2f2f2;
+    padding: 5.5rem;
+    text-align: center;
+}
+
+.what-makes h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.what-makes__linea {
+    max-width: 5rem;
+    border-bottom: 2px solid #000;
+    margin: 0 auto;
+}
+
+.what-makes__text {
+    font-size: 2rem;
+}
+
+.targets {
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 8rem;
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards {
+    background-color: #fff;
+    padding: 5rem;
+}
+
+.cards-image {
+    margin: -9rem 0 3.5rem 0;
+}
+
+.cards-information h3{
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #2081c3;
+}
+
+.cards-information p {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+}
+
+.btn-3 {
+    padding: 1rem 8rem 1rem 8rem;
+    background-color: #fff;
+    color: #2081c3;
+    border-radius: 10rem;
+    border: 1px solid #2081c3;
+    margin: 2rem;
+    font-weight: bold;
+}
+
+.btn-3:hover {
+    background-color: #2081c3;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.educational {
+    background-color: #fff;
+}
+
+.educational-information {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5rem;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.educational-images {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.educational-text h3{
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: left;
+}
+
+.educational-text p {
+    font-size: 2rem;
+}
+
+.educational-elements img{
+    width: 150px;
+}

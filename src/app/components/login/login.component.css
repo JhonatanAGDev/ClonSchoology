@@ -1,0 +1,46 @@
+.form {
+    width: 35%;
+    margin: 0 auto;
+}
+
+.informacion {
+    background-color: #fff;
+    padding: 5rem;
+    margin-top: 5rem;
+}
+
+.informacion h2 {
+    text-align: left;
+    font-size: 1.6rem;
+}
+
+.informacion p {
+    color: gray;
+}
+
+.campos input{
+    display: block;
+    width: 100%;
+    padding: .7rem;
+    margin: 1rem 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-4 {
+    padding: .8rem 2rem;
+    color: #fff;
+    background-color: #2081c3;
+    border: 1px solid #2081c3;
+    font-weight: bold;
+}
+
+.flex-hijo a {
+    text-decoration: none;
+    display: block;
+    color: #2081c3;
+    font-size: 1.4rem;
+}
